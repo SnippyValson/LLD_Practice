@@ -8,18 +8,18 @@ public class Book {
     private int isbn;
     private String name;
     private String author;
-    private ArrayList<BookCategory> categories;
+    private ArrayList<String> categories;
 
     public Book()
     {
         categories = new ArrayList<>();
     }
 
-    public ArrayList<BookCategory> getBookCategories() {
+    public ArrayList<String> getBookCategories() {
         return categories;
     }
 
-    public void setBookCategories(ArrayList<BookCategory> bookCategory) {
+    public void setBookCategories(ArrayList<String> bookCategory) {
         this.categories = bookCategory;
     }
 

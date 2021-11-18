@@ -1,4 +1,4 @@
 package com.snippyvalson.librarymanager.models;
 
-public class Rack {
+public class BookTransaction {
 }
